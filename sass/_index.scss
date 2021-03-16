@@ -1,0 +1,53 @@
+.carousel {
+  img {
+    overflow: hidden;
+    margin: -62px auto 0px;
+    display: block;
+  }
+}
+.news {
+  background-color: $primary_color;
+  float: left;
+  width: 35.6%;
+  margin: 30px 0 195px 0;
+  a, p, h2 {
+    color: $secondary_font_color;
+    text-decoration: none;
+  }
+  h2 {
+    font-size: 40px;
+    padding: 25px 0px 4px 34px;
+    letter-spacing: 0.75px;
+  }
+  p {
+    margin-top: 36px;
+    letter-spacing: 0.75px;
+    font-style: italic;
+  }
+  .news_field {
+    padding: 0px 23px 82px 33px;
+  }
+  .archive {
+    text-decoration: underline;
+    text-align: right;
+    display: block;
+    margin: 20px 33px 0 0;
+  }
+}
+article {
+  float: left;
+  width: 58%;
+  margin: 52px 0px 0px 58px;
+  h1, p {
+    color: $primary_font_color;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 0 0 33px 0px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+  }
+  p {
+    margin: 22px 0 0 0;
+  }
+}

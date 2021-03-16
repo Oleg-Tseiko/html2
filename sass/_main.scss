@@ -1,0 +1,33 @@
+@font-face {
+  font-family:"Open Sans Condensed Light";
+  src:url("../fonts/OpenSans-CondLight.eot") format("eot"),url("../fonts/OpenSans-CondLight.woff") format("woff"),url("../fonts/OpenSans-CondLight.ttf") format("truetype"),url("../fonts/OpenSans-CondLight.svg#OpenSans-CondensedLight") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+body {
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+body, p, a, h2, h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+}
+ul {
+  li {
+    list-style-type: none;
+  }
+}
+.contain {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.contain-full {
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+  min-width: 1000px;
+}

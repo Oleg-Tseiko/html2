@@ -1,0 +1,49 @@
+footer {
+  background-color: $primary_color;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  min-width: 1000px;
+  margin-top: auto;
+  .footer_hold {
+    float: left;
+    width: 30%;
+    h2, p, a {
+      color: $secondary_font_color;
+      span {
+        text-decoration: underline;
+      }
+    }
+    h2 {
+      margin: 45px 0 0px 0px;
+    }
+    a {
+      margin: 0 0 0 0;
+      text-decoration: none;
+    }
+    ul {
+      padding: 0;
+      margin: 43px 0 55px 57px;
+      li {
+        text-decoration: underline;
+        padding: 3px 0 0 0;
+      }
+    }
+    .foot_row {
+      float: left;
+      width: 75%;
+      &:nth-child(1) {
+        width: 36px;
+        margin: 5px 0 0 0;
+      }
+      h2 {
+        padding: 0px 0 0 9px;
+        margin: 0;
+      }
+    }
+    &:last-child {
+      margin: 44px 0 0 150px;
+      width: 24%;
+    }
+  }
+}
